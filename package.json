@@ -1,0 +1,36 @@
+{
+  "name": "image-editor-api",
+  "version": "1.0.0",
+  "description": "API for web based image editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js --port=8081 --config=./configuration.json --debug --local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirsaleem96/image-editor-api.git"
+  },
+  "keywords": [
+    "api",
+    "image",
+    "editor",
+    "web",
+    "based"
+  ],
+  "author": "Amir Saleem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirsaleem96/image-editor-api/issues"
+  },
+  "homepage": "https://github.com/amirsaleem96/image-editor-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "commander": "^2.11.0",
+    "compression": "^1.7.1",
+    "express": "^4.16.1",
+    "mysql": "^2.14.1",
+    "node-base64-image": "^1.0.4",
+    "request": "^2.83.0",
+    "require": "^2.4.20"
+  }
+}
